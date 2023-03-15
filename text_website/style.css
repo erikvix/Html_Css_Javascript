@@ -5,8 +5,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  overflow: hidden;
 }
-
 * {
   font-family: Poppins;
   box-sizing: border-box;
@@ -64,4 +64,46 @@ header {
 
 .linsk:checked {
   color: red;
+}
+
+/* ------------ */
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.slider-wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.slider {
+  display: flex;
+  aspect-ratio: 16 / 9;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  box-shadow: 0 2rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25rem);
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+.slider img {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+}
+
+.slider-nav a {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #fff;
+  transition: opacity ease 250ms;
+}
+.slider-nav a:hover {
+  opacity: 2;
 }
