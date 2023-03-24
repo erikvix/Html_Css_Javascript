@@ -1,0 +1,125 @@
+:root {
+  --black: #110f17ff;
+  --dp: #331822ff;
+  --red: #ad3234ff;
+  --black2: #0e0f14ff;
+  --black1: #0d0e13ff;
+  --c1: #161220ff;
+  --c2: #532740ff;
+  --c3: #ad3234ff;
+  --c4: rgb(14, 129, 131);
+  --c5: #732730ff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+  background-color: var(--black);
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+* {
+  font-family: Poppins;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  color: #ff595a;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 40px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+.logo {
+  display: flex;
+  justify-content: start;
+  height: 60px;
+  width: 150px;
+}
+.nav-right {
+  display: flex;
+  gap: 40px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.home {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("mylove.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-y: 70px;
+  background-position-x: 20rem;
+  background-size: 40rem;
+  display: flex;
+  align-items: center;
+  padding: 30px 100px;
+}
+/* ----------2-CONTENT---------- */
+.content h2 {
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+.content h2 span {
+  font-weight: 600;
+  color: var(--c4);
+  letter-spacing: 5px;
+}
+
+.feature {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.feature .contentft {
+  background-color: var(--black1);
+  padding: 100px;
+  width: 50%;
+}
+
+.heading {
+  color: var(--c4);
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 150px;
+  padding: 10px;
+  background-color: transparent;
+  font-size: 15px;
+  margin-top: 20px;
+  border: 1px solid var(--red);
+  border-radius: 10px;
+  font-weight: 400;
+}
+
+.btn:hover {
+  transition: 0.3s ease all;
+  background-color: #ff595a;
+  color: #fff;
+}
+
+.feature .img-ft {
+  background: url("img/213.png");
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+}
