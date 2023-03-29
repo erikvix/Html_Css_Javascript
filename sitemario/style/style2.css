@@ -9,6 +9,7 @@
   --c3: #ad3234ff;
   --c4: rgb(14, 129, 131);
   --c5: #732730ff;
+  --c6: #141522;
 }
 
 body {
@@ -88,9 +89,11 @@ body::-webkit-scrollbar {
 }
 
 .feature .contentft {
-  background-color: var(--black1);
+  background-color: var(--c1);
   padding: 100px;
   width: 50%;
+  min-height: 600px;
+  height: 50%;
 }
 
 .heading {
@@ -115,6 +118,7 @@ body::-webkit-scrollbar {
   transition: 0.3s ease all;
   background-color: #ff595a;
   color: #fff;
+  cursor: pointer;
 }
 
 .feature .img-ft {
@@ -122,4 +126,54 @@ body::-webkit-scrollbar {
   width: 50%;
   background-size: cover;
   background-position: center;
+}
+/* ----------3_CONTENT---------- */
+.design {
+  background-color: var(--c6);
+  /* background: url(img/ryo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  height: 1000px;
+  padding: 100px;
+  text-align: center;
+}
+
+.design .container-2 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.serviceBx img {
+  width: 300px;
+  height: 300px;
+}
+.serviceBx {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-left: 550px;
+  gap: 100px;
+}
+
+/* --------------4-CONTENT------------------ */
+.music {
+  padding: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+
+.image-msc img {
+  width: 400px;
+  height: 400px;
+  box-shadow: 0 0 1em hsla(0, 0%, 0%, 0.75);
 }

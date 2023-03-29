@@ -1,0 +1,35 @@
+body {
+    background-color: #eee;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+
+.text {
+font-weight:  bold;
+box-sizing: border-box;
+padding: 0px;
+margin: 0px;
+text-decoration: none;
+}
+
+.fodase {
+    border: none;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #465362;
+    cursor: pointer;
+    transition: 0.5s ease all;
+
+}
+
+.fodase:hover{
+    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+    color: #eee;
+    background-color: #465362;
+
+}
