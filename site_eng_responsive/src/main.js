@@ -1,0 +1,9 @@
+import '../styles/modern-normalize.css';
+import '../styles/style.css';
+import '../styles/components/header.css';
+import '../styles/components/parallax.css';
+import '../styles/components/about.css';
+import '../styles/components/obra.css';
+import '../styles/components/footer.css';
+import '../styles/components/copyright.css';
+import '../styles/utils.css';
