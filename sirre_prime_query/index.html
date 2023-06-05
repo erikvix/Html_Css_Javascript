@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Server</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header containernopad">
+      <nav class="header__logo">
+        <a href="index.html">
+          <img class="logo" src="/public/logoteste.png" alt="logo"
+        /></a>
+      </nav>
+      <nav>
+        <ul class="header__menu">
+          <li>
+            <a href="index.html" class="header__link">Home</a>
+          </li>
+          <li>
+            <a href="aprime.html" class="header__link">A Prime</a>
+          </li>
+          <li>
+            <a href="obras.html" class="header__link">Obras</a>
+          </li>
+          <li>
+            <a href="contato.html" class="header__link">Contato</a>
+          </li>
+          <li class="header__line"></li>
+          <button class="btn">Fale Conosco</button>
+        </ul>
+        <button class="header__bars">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section class="parallax containernopad">
+        <h2 class="parallax__txt">Example</h2>
+      </section>
+      <section class="about container section">
+        <ul class="about__content">
+          <h2 class="about__header">A PRIME</h2>
+          <hr class="about__hr" />
+          <p class="about__p">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            ratione amet voluptatem consectetur veritatis earum et laborum
+            corporis! Illo nam cupiditate accusantium rem perspiciatis hic
+            tempora dicta optio necessitatibus corporis! <br />Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Eveniet cupiditate maiores
+            rerum distinctio qui perferendis ipsam fugit provident id architecto
+            dicta, consequatur, necessitatibus ex aperiam mollitia temporibus
+            cum veniam quo.
+          </p>
+        </ul>
+        <ul class="about__img-wrapper">
+          <img class="about__img" src="/public/teste.jpg" alt="" />
+        </ul>
+      </section>
+      <section class="obras container section">
+        <h2 class="obra__maintitle">Empreendimentos</h2>
+        <div class="obra__main">
+          <div class="obra__box">
+            <img class="obra__img" src="/public/p1.jpg" alt="" />
+            <h3 class="obra__title">Teste1</h3>
+          </div>
+          <div class="obra__box">
+            <img class="obra__img" src="/public/p2.jpg" alt="" />
+            <h3 class="obra__title">Teste2</h3>
+          </div>
+          <div class="obra__box">
+            <img class="obra__img" src="/public/p4.jpg" alt="" />
+            <h3 class="obra__title">Teste3</h3>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer section containenopad">
+      <ul class="footer__list">
+        <img class="footer__logo" src="/public/logoteste.png" alt="" />
+        <p>
+          Marcada pelo contínuo <strong>desejo</strong> de fazer cada vez
+          <strong>melhor.</strong>
+        </p>
+      </ul>
+      <ul class="footer__list">
+        <h3 class="footer__title">CONTATO</h3>
+        <i class="bx bxs-pin footer__desc">
+          <a href="#" class="footer__desc">R. Nova Verona, 13</a>
+        </i>
+        <i class="bx bxs-envelope">
+          <a href="#" class="footer__desc">contato@primeobras.com</a>
+        </i>
+        <i class="bx bxs-phone">
+          <a href="#" class="footer__desc">(27) 99783-0446</a>
+        </i>
+      </ul>
+      <ul class="footer__list">
+        <h3 class="footer__title">SOBRE</h3>
+        <a href="#" class="footer__desc">Política de privacidade</a>
+        <a href="#" class="footer__desc">Termos e condições</a>
+        <a href="#" class="footer__desc">Contato</a>
+      </ul>
+      <ul class="footer__list__social">
+        <h3 class="footer__title">ACOMPANHE</h3>
+        <a href="#" class="footer__link" id="instagram">
+          <i class="bx bxl-instagram"></i>
+        </a>
+        <a href="#" class="footer__link" id="linkedin">
+          <i class="bx bxl-facebook-circle"></i>
+        </a>
+        <a href="#" class="footer__link" id="facebook">
+          <i class="bx bxl-linkedin"></i>
+        </a>
+      </ul>
+    </footer>
+    <section class="copyright containernopad">
+      <p>2023 Prime Obras - Todos os direitos reservados</p>
+    </section>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

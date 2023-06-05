@@ -1,0 +1,15 @@
+.copyright {
+  background-color: var(--black2);
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .copyright {
+    font-size: var(--size-sm);
+  }
+}
